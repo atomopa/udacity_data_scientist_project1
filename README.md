@@ -26,8 +26,10 @@ This contains the code for homework 1 in the Udacity Data Scientist Nano Degree.
 # Summary
 **Question 1**: Looking at the data for Bosten, there are clear correlations between certain variables as can be seen in the heatmap below. 
 
+
+**Heatmap showing the correlation between different variables for the Bosten dataset**
+
 ![Heatmap showing the correlation between different variables for the Bosten dataset](./images/Figure_1.png)
-*Heatmap showing the correlation between different variables for the Bosten dataset*
 
 There seems to be a clear positiv correlation between a listing's price and cleaning fees. Furthermore, unsurprisingly, the number of people a listing accommodates as well as the number of bathrooms and bedrooms show a positive correlation with the price as well as with each other. This is not a create surprise as you would expect listings that accommodate more people to be more expensive and require more bath- and bedrooms. 
 The review score of a listing shows a positive correlation with its location score. This again is not too surprising since the location score is a major factor of the overall listing score. However, there seems to be no clear correlation between location and overall review score and any other of the values, in particular not the price of the listing. This is somewhat surprising and you could have imagined more expensive listings to receive better review scores or at the very least better location scores.
@@ -52,11 +54,13 @@ Strong negative correlation can be seen with the listing type where anything oth
 
 **Question 3** Comparing the heatmaps for Boston and Seattle one can see an overall similar trend. There does however seem to be significantly stronger correlation between the location rating and the price in Boston compared to Seattle.
 
-![Heatmap showing the correlation between different variables for the Bosten dataset](./images/Figure_1.png)
-*Heatmap showing the correlation between different variables for the Bosten dataset*
-![Heatmap showing the correlation between different variables for the Seattle dataset](./images/Figure_2.png)
-*Heatmap showing the correlation between different variables for the Seattle dataset*
+**Heatmap showing the correlation between different variables for the Bosten dataset**
 
+![Heatmap showing the correlation between different variables for the Bosten dataset](./images/Figure_1.png)
+
+**Heatmap showing the correlation between different variables for the Seattle dataset**
+
+![Heatmap showing the correlation between different variables for the Seattle dataset](./images/Figure_2.png)
 
 In the top ten variables correlating with price we again see similarties with any room type other than whole house/apt showing the strongest negative correlation with price in both cities. Somewhat surprisingly, a super strict cancellation policy in in Boston is the first non room type related variable on the list while it does not show up in Seattle at all. Extremely high priced listings in Boston seem to be very strict with their cancellation policy, possibly to avoid hoax bookings or an unreasonably high cancerllation rate for these kind of rentals. However, why this is not the case in Seattle I am not 100% clear. Further findings in this list support the earlier findings of the heatmaps that number of accomodated people as well as number of beds, bedrooms and bathrooms all correlate positively with price and are among the top ten in both cities.
 
