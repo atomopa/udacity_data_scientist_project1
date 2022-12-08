@@ -52,7 +52,7 @@ The review score of a listing shows a positive correlation with its location sco
 | 6      | **review_scores_value**                 | -6.267840  | 6.267840  |
 | 4      | **beds**                                | 5.188895   | 5.188895  |
 
-Strong negative correlation can be seen with the listing type where anything other than the whole house/apt option pulls the price down significantly. 
+Strong negative correlation can be seen with the listing type where anything other than the whole house/apt option pulls the price down significantly. Somewhat surprisingly, a super strict cancellation policy in in Boston is the first non room type related variable on the list. Extremely high priced listings in Boston seem to be very strict with their cancellation policy, possibly to avoid hoax bookings or an unreasonably high cancerllation rate for these kind of rentals. Further findings in this list support the earlier findings of the heatmaps that number of accomodated people as well as number of beds, bedrooms and bathrooms all correlate positively with price and are among the top ten.
 
 **Question 3** Comparing the heatmaps for Boston and Seattle one can see an overall similar trend. There does however seem to be significantly stronger correlation between the location rating and the price in Boston compared to Seattle.
 
