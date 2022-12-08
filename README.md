@@ -23,6 +23,8 @@ This contains the code for homework 1 in the Udacity Data Scientist Nano Degree.
 
 **AllTogether.py and AllTogetherSolns.py**: Contain Udacity provided code used throw-out this class.
 
+**/images**: Contain images produced with the code and used in the readme.
+
 # Summary
 **Question 1**: Looking at the data for Bosten, there are clear correlations between certain variables as can be seen in the heatmap below. 
 
