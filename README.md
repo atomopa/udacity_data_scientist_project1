@@ -95,3 +95,19 @@ In the top ten variables correlating with price we again see similarties with an
 | 11      | **bed_type_Futon**                      | 3.574835   | 3.574835  |
 | 14      | **cancellation_policy_strict**          | -2.415319  | 2.415319  |
 
+# Licensing, Authors and Acknowledgements
+Dataset source:
+https://www.kaggle.com/datasets/airbnb/seattle
+https://www.kaggle.com/datasets/airbnb/boston
+
+Dataset license:
+CC0: Public Domain
+
+Dataset credit:
+Airbnb
+
+AllTogether.py and AllTogetherSolns.py soure:
+https://www.udacity.com/course/data-scientist-nanodegree--nd025
+
+Dataset credit:
+Udacity
